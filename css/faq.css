@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=DM+Serif+Display&family=Roboto&display=swap');
+
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  min-width: 360px;
+  overflow-x: hidden;
+}
+
+/*  Header Styles  */
+header { border-bottom: 1px solid #4FA83D; } 
+
+/*  Main Content Styles  */
+.faq h1 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 35px;
+  text-align: center;
+  padding: 100px 20px 50px;
+}
+
+.questions {
+   width: 80%;
+   margin: 100px auto;
+}
+
+.questions div { margin: 20px 0; }
+
+.questions h2 { font-size: 16px; }
+
+.questions p {
+  font-size: 15px;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+
+.questions a {
+  text-decoration: none;
+  color: #4FA83D;
+  font-weight: 600;
+}
+
+.questions a:hover { color: #145A32; }

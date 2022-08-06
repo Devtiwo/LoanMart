@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=DM+Serif+Display&family=Roboto&display=swap');
+
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  min-width: 360px;
+  overflow-x: hidden;
+}
+
+/*  Banner Styles  */
+.about-banner {
+  height: 500px;
+  transition: 3s ease-in;
+}
+
+.banner-header h1 {
+  text-align: center;
+  color: #FFF;
+  font-family: 'DM Serif Display', serif;
+  font-size: 45px;
+  padding: 150px 0 0;
+}
+
+/*  Main Content Styles  */
+
+.our-story {
+  text-align: center;
+  padding: 50px;
+}
+
+.our-story h2 {
+  margin: 50px auto;
+  font-family: 'DM Serif Display', serif;
+  font-size: 50px;
+}
+
+.our-story p {
+  width: 95%;
+  margin: auto;
+}
+
+@media only screen and (min-width: 992px) {
+
+  .our-story p {
+    width: 80%;
+    margin-bottom: 100px;
+  }
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoanMart | Contact Us</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contactus.css">
+    <link rel="icon" href="./images/favicon.ico">
+    <script src="https://use.fontawesome.com/54aef7fad9.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+  <!--   HEADER SECTION  -->
+  <header>
+     <a href="index.html"><img src="./images/logo.png"></a>
+     <nav class="mobile hidden">
+         <i class="fa fa-times fa-2x" aria-hidden="true"></i>  
+         <ul class="menu-links">
+             <li><a href="./index.html" class="links">Home</a></li>
+             <li><a href="./aboutus.html" class="links">About Us</a></li>
+             <li><a href="./faq.html" class="links">FAQs</a></li>
+         </ul>
+         <a href="apply.html" class="apply">Start Your Appliation</a>
+     </nav>
+     <nav class="desktop">
+         <i class="fa slide-right fa-bars fa-2x" aria-hidden="true"></i>
+         <ul class="navlinks">
+             <li><a href="./index.html">Home</a></li>
+             <li><a href="./aboutus.html">About Us</a></li>
+             <li><a href="./faq.html">FAQs</a></li>
+         </ul>
+         <a href="apply.html" class="apply">Start Your Appliation</a>
+     </nav>
+ </header>
+ <!--  MAIN CONTENT  -->
+ <main>
+      <section class="contact-header">
+         <h1>Contact Us</h1>
+      </section>
+      <!--  CONTACT INFO  -->
+      <section class="contact-info">
+         <div class="email">
+             <p>Email</p>
+             <p>info@loanmart.com</p>
+         </div>
+         <div>
+             <p>Address</p>
+             <p>LoanMart Inc.<br>P.O Box 897865<br>Long Beach 90808</p>
+         </div>
+      </section>
+      <!--  CONTACT FORM  -->
+      <section class="contact-form">
+         <h2>Do you have any questions, inquiries or suggestions, feel free to send us a message.</h2>
+         <form action="./contact.php" method="post" id="contact">
+             <section class="mini">
+             <article class="form-group first-name">
+                 <label for="fname">First Name:</label>
+                 <input type="text" name="fname" id="fname" placeholder="First Name">
+                 <small class="fname-error"></small>
+             </article>
+             <article class="form-group last-name">
+                 <label for="lname">Last Name:</label>
+                 <input type="text" name="lname" id="lname" placeholder="Last Name">
+                 <small class="lname-error"></small>
+             </article>
+             </section>
+             <article class="form-group">
+                 <label for="email">Email:</label>
+                 <input type="email" name="email" id="email" placeholder="Email Address">
+                 <small class="email-error"></small>
+             </article>
+             <article class="form-group">
+                 <label for="message">Enter your message:</label>
+                 <textarea rows="10" name="message" id="message" placeholder="Type your message here"></textarea>
+                 <small class="message-error"></small>
+             </article>
+             <article>
+                 <button type="submit">send</button>
+             </article>
+         </form>
+      </section>
+ </main>
+  <!--  FOOTER SECTION  -->
+  <footer>
+     <article class="company">
+         <div>
+             <h3>Our Company</h3>
+             <ul>
+                 <li><a href="#how">How it works</a></li>
+                 <li><a href="./aboutus.html">About Us</a></li>
+                 <li><a href="./contactus.html">Contact Us</a></li>
+                 <li><a href="./faq.html">FAQs</a></li>
+                 <li><a href="./calculator.html">Loan Calculator</a></li>
+             </ul>
+         </div>
+         <div>
+             <h3>Legal</h3>
+             <ul>
+                 <li><a href="./privacy.html" target="_blank">Privacy Policy</a></li>
+                 <li><a href="./termsofuse.html" target="_blank">Terms of Use</a></li>
+             </ul>
+         </div>
+         <div class="footer-logo">
+             <a href="index.html"><img src="./images/logo2.png"></a>
+         </div>
+     </article>
+     <article class="copyright">
+         <hr>
+         <small>© 2022 LoanMart. All rights reserved.</small>
+     </article>
+ </footer>
+ <script src="./Js/contact.js"></script>
+</body>
+</html>

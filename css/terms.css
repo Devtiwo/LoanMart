@@ -1,0 +1,57 @@
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+    
+body {
+  font-family: 'Roboto', sans-serif;
+  min-width: 360px;
+  overflow-x: hidden;
+}
+
+/*  Header Styles  */
+
+header hr {
+  background-color: #4FA83D;
+  margin: 0 50px;
+  height: 4px;
+}
+
+header img {
+  width: 300px;
+  padding-left: 50px;
+}
+
+/*  Main Content Styles  */
+.terms h1 {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 500;
+  margin: 50px 50px 30px; 
+}
+
+.terms-info  {
+  padding: 10px 45px 100px;
+  font-size: 12px;
+}
+
+.terms-info span { font-weight: bold; }
+
+.terms-info .intro p { padding: 10px; }
+
+.intro ol { padding: 20px; }
+
+.intro ol li a { color: #000; }
+
+.consent ol { padding-left: 15px; }
+
+.consent li { margin-bottom: 20px; }
+
+.consent li a { color: #4FA83D; }
+
+.conduct-list li {
+  margin-bottom: 2px;
+  list-style: lower-alpha;
+}

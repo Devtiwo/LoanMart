@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=DM+Serif+Display&family=Roboto&display=swap');
+
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  min-width: 360px;
+  overflow-x: hidden;
+}
+
+.hidden { display: none; }
+
+/*  Header Styles  */
+header { border-bottom: 1px solid #4FA83D ; }
+
+/*  Main Styles  */
+.note p {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 600;
+  margin: 50px 0 10px;
+  font-size: 15px;
+}
+
+.note ol {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.note ol li { margin: 15px 0; }
+
+.loan-type {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+
+/* .loan-type div {
+  border: 2px solid #909497;
+  border-radius: 5px;
+  padding: 30px 20px;
+  cursor: pointer;
+  background-color: #F4F6F7;
+}
+
+.loan-type div:hover {
+  transform: translate(3px, 3px);
+  box-shadow: 3px 3px 5px #909497;
+  transition: 0.2s ease-in;
+} */
+
+/*  Application form Styles  */
+.application h1 {
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+  margin: 50px 0 30px 0;
+}
+
+form {
+  width: 80%;
+  margin: 10px auto;
+  padding: 20px;
+  display: block;
+  border: 1px solid #CCC;
+}
+
+.form-step h2 {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 20px;
+}
+
+.form-step label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.form-step .input-group { margin: 25px 0; }
+
+.form-step input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 5px;
+}
+
+.form-step select {
+  display: block;
+  margin: 10px 0 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+.form-step .btn-group {
+  margin: 50px 0 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.form-step small { color: #FB0303; }
+
+.width-50 { width: 50%; }
+
+.ml-auto { margin-left: auto; }
+
+.single-btn { margin: 50px 0 10px; }
+
+.rel-position { position: relative; }
+
+#amount { padding-left: 27px; }
+
+#biz-amount { padding-left: 27px; }
+
+.fa-usd {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  color: #4FA83D
+}
+
+.form-step .btn {
+  padding: 10px;
+  font-size: 20px;
+  display: block;
+  border: none;
+  background-color: #005B13;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.form-step .btn:hover {
+  box-shadow: 0 0 0 2px #FFF, 0 0 0 3px #4FA83D;
+}
+
+::-webkit-file-upload-button {
+  background: #CCC;
+  border: none;
+  color: #000;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* .preview {
+  width: 200px;
+  height: 200px;
+} */

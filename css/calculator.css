@@ -1,0 +1,102 @@
+/*  Header styles  */
+header { border-bottom: 1px solid #4FA83D; }
+
+/*  Main Content Styles  */
+.description h1 {
+  font-family: 'DM Serif Display', serif;
+  text-align: center;
+  font-size: 40px;
+  margin: 40px 0 20px;
+}
+
+.description p {
+  text-align: center;
+  font-size: 18px;
+}
+
+/*  Form Styles  */
+form {
+  display: block;
+  width: 70%;
+  padding: 20px;
+  height: 550px;
+  margin: 50px auto 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+form input {
+  width: 100%;
+  padding:20px 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+form input::placeholder { font-size: 20px; }
+
+form small { color: #FB0303; }
+
+.form-group { margin-bottom: 20px; }
+
+form button {
+  padding: 15px 10px;
+  font-size: 20px;
+  width: 200px;
+  cursor: pointer;
+  background-color: #005B13;
+  border: none;
+  color: #FFF;
+  display: block;
+  margin: 30px 0;
+}
+
+form button:hover {
+  background-color: #FFF;
+  color: #005B13;
+  border: 2px solid #005B13;
+  transition: 0.3s ease-in;
+}
+
+/*  Loan Summary Styles  */
+.summary { 
+  text-align: center;
+  background-color: #ECF6F9;
+  padding: 20px;
+  width: 400px;
+  margin: 30px auto 50px;
+}
+
+.summary h2 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 30px;
+  margin: 20px auto 40px;
+}
+
+.summary h3 { margin: 10px auto; }
+
+.summary p {
+  margin: 0 auto 40px;
+  color: #4FA83D;
+  font-size: 25px;
+}
+
+/*     PC STYLES     */
+@media only screen and (min-width: 992px) {
+  .calculator {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: auto;
+  }
+
+  form { width: 90%; }
+
+  .summary {
+    height: 450px;
+    margin-top: 50px;
+  }
+}

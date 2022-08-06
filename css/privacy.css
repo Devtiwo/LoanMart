@@ -1,0 +1,54 @@
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+body {
+  font-family: 'Roboto', sans-serif;
+  min-width: 360px;
+  overflow-x: hidden;
+}
+
+/*  Header Styles  */
+header hr {
+  background-color: #4FA83D;
+  margin: 0 50px;
+  height: 4px;
+}
+
+header img {
+  width: 450px;
+  padding-left: 50px;
+}
+
+/*  Main Content Styles  */
+
+.privacy h1 {
+  text-align: center;
+  padding: 50px 0 20px;
+  font-family: 'crete Round', serif;
+}
+
+.notice {
+  padding: 30px 30px 100px;
+  font-size: 12px;
+}
+
+.notice ul { margin: 20px 0; }
+
+.notice li { list-style: none; }
+
+.notice a { color: #4FA83D; }
+
+.notice span { font-weight: 600; }
+
+.first-div p { padding: 5px 0; }
+
+.notice h2 {
+  margin: 15px 0;
+  font-size: 15px;
+  text-decoration: 1px underline;
+}
