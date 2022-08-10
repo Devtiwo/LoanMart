@@ -63,3 +63,21 @@ function updateProgressbar() {
   const progressActive = document.querySelectorAll('.progress-step-active');
   progress.style.width = ((progressActive.length - 1) / (progressSteps.length -1)) * 100 + '%';
 }
+
+//  FUNCTIONALITY FOR HIDING AND DISPLAYING INPUT FIELDS BASED ON SELECTED OPTION
+const purpose = document.getElementById('purpose');
+function changeStatus() {
+  if (purpose.value == 'business') {
+    document.querySelector('.business').style.display = 'block';
+    document.querySelector('.business-reason').style.display = 'block';
+    document.querySelector('.biz-amount').style.display = 'block';
+    document.querySelector('.amount').style.display = 'none'
+  } else {
+    document.querySelector('.business').style.display = 'none';
+    document.querySelector('.business-reason').style.display = 'none';
+    document.querySelector('.biz-amount').style.display = 'none';
+    document.querySelector('.amount').style.display = 'block';
+  }
+}
+
+purpose.addEventListener('change', changeStatus);

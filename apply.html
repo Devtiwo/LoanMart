@@ -40,7 +40,7 @@
          <p>Note</p>
          <ol>
              <li>All fields must be filled in correctly.</li>
-             <li>We categorize loans for debts consolidation, vacation, home repairs, car repairs, student loan under personal loans.</li>
+             <li>We categorize loans for debts consolidation, vacation, home repairs, car repairs, student loan and others under personal loans.</li>
              <li>We do not offer services for mortgage loans at the moment.Hopefully in the future.</li>
              <li>Interest rates for personal loans is 2.5% per annum while business loans is 3% per annum.</li>
          </ol>
@@ -300,21 +300,21 @@
                  <article class="input-group">
                      <label for="purpose">Purpose Of Loan</label>
                      <select id="purpose">
-                         <option>Purpose of Loan</option>
-                         <option>Debt Consolidation</option>
-                         <option>Home Improvement</option>
-                         <option>Medical Expenses</option>
-                         <option>Business</option>
-                         <option>Household Expenses</option>
-                         <option>Automobile Purchase</option>
-                         <option>Special Occasion</option>
-                         <option>Vacation</option>
-                         <option>Taxes</option>
-                         <option>Others</option>
+                         <option value="">Purpose of Loan</option>
+                         <option value="debt-consolidation">Debt Consolidation</option>
+                         <option value="home-improvement">Home Improvement</option>
+                         <option value="medical-expenses">Medical Expenses</option>
+                         <option value="business">Business</option>
+                         <option value="household">Household Expenses</option>
+                         <option value="automobile">Automobile Purchase</option>
+                         <option value="special-occasion">Special Occasion</option>
+                         <option value="vacation">Vacation</option>
+                         <option value="taxes">Taxes</option>
+                         <option value="others">Others</option>
                      </select>
                      <small></small>
                  </article>
-                 <article class="input-group hidden">
+                 <article class="input-group business hidden">
                      <label for="type">Type of Business</label>
                      <select id="type">
                          <option>What type of business do you own</option>
@@ -325,7 +325,7 @@
                          <option>S Coperation</option>
                      </select>
                  </article>
-                 <article class="input-group hidden">
+                 <article class="input-group business-reason hidden">
                      <label for="reason">Loan Reason</label>
                      <select id="reason">
                          <option>Loan Reason</option>
@@ -337,13 +337,13 @@
                      </select>
                      <small></small>
                 </article>
-                 <article class="input-group rel-position">
-                     <label for="amount"> Loan Amount</label>
+                 <article class="input-group rel-position amount">
+                     <label for="amount">Loan Amount</label>
                      <input type="number" name="amount" id="amount" placeholder="Enter amount($2,000 to $50,000)" class="diff-pad">
                      <i class="fa fa-usd" aria-hidden="true"></i>
                      <small></small>
                  </article>
-                 <article class="input-group rel-position hidden">
+                 <article class="input-group rel-position biz-amount hidden">
                     <label for="biz-amount"> Loan Amount</label>
                     <input type="number" name="biz-amount" id="biz-amount" placeholder="Enter amount($5,000 to $50,000,000)" class="diff-pad">
                     <i class="fa fa-usd" aria-hidden="true"></i>
