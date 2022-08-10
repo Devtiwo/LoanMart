@@ -40,7 +40,7 @@
          <p>Note</p>
          <ol>
              <li>All fields must be filled in correctly.</li>
-             <li>We categorize loans for debts consolidation, vacation, home repairs, car repairs, student loan under personal loans.</li>
+             <li>We categorize loans for debts consolidation, vacation, home repairs, car repairs, student loan and others under personal loans.</li>
              <li>We do not offer services for mortgage loans at the moment.Hopefully in the future.</li>
              <li>Interest rates for personal loans is 2.5% per annum while business loans is 3% per annum.</li>
          </ol>
@@ -49,18 +49,17 @@
      <!--  APPLICATION FORM  -->
      <section class="application">
          <h1>Get approved for a loan with few steps</h1>
-         <form ation="#" method="post" id="form">
+         <form ation="" method="post" id="form">
              <!--  PROGRESS BAR  -->
-             <article class="progress-bar"> 
+             <article class="progress-bar">
                  <div class="progress" id="progress"></div>
-
-                 <div class="progress-step active" data-title="Personal Information"></div>
+                 <div class="progress-step progress-step-active" data-title="Personal Information"></div>
                  <div class="progress-step" data-title="Loan information"></div>
                  <div class="progress-step" data-title="Verify Identity"></div>
              </article>
              <!--  FORM STEPS  -->
              <!--  STEP 1  -->
-             <section class="form-step active">
+             <section class="form-step form-step-active">
                  <h2>Personal Information</h2>
                  <article class="input-group">
                      <label for="fname">First Name</label>
@@ -292,30 +291,30 @@
                     <small></small>
                  </article>
                  <article class="single-btn">
-                     <button class="btn btn-next ml-auto width-50">Next</button>
+                     <a class="btn btn-next ml-auto width-50">Next</a>
                  </article>
              </section>
              <!--   STEP 2  -->
-             <section class="form-step active">
+             <section class="form-step">
                  <h2>Loan Request Information</h2>
                  <article class="input-group">
                      <label for="purpose">Purpose Of Loan</label>
                      <select id="purpose">
-                         <option>Purpose of Loan</option>
-                         <option>Debt Consolidation</option>
-                         <option>Home Improvement</option>
-                         <option>Medical Expenses</option>
-                         <option>Business</option>
-                         <option>Household Expenses</option>
-                         <option>Automobile Purchase</option>
-                         <option>Special Occasion</option>
-                         <option>Vacation</option>
-                         <option>Taxes</option>
-                         <option>Others</option>
+                         <option value="">Purpose of Loan</option>
+                         <option value="debt-consolidation">Debt Consolidation</option>
+                         <option value="home-improvement">Home Improvement</option>
+                         <option value="medical-expenses">Medical Expenses</option>
+                         <option value="business">Business</option>
+                         <option value="household">Household Expenses</option>
+                         <option value="automobile">Automobile Purchase</option>
+                         <option value="special-occasion">Special Occasion</option>
+                         <option value="vacation">Vacation</option>
+                         <option value="taxes">Taxes</option>
+                         <option value="others">Others</option>
                      </select>
                      <small></small>
                  </article>
-                 <article class="input-group">
+                 <article class="input-group business hidden">
                      <label for="type">Type of Business</label>
                      <select id="type">
                          <option>What type of business do you own</option>
@@ -326,7 +325,7 @@
                          <option>S Coperation</option>
                      </select>
                  </article>
-                 <article class="input-group">
+                 <article class="input-group business-reason hidden">
                      <label for="reason">Loan Reason</label>
                      <select id="reason">
                          <option>Loan Reason</option>
@@ -338,13 +337,13 @@
                      </select>
                      <small></small>
                 </article>
-                 <article class="input-group rel-position">
-                     <label for="amount"> Loan Amount</label>
+                 <article class="input-group rel-position amount">
+                     <label for="amount">Loan Amount</label>
                      <input type="number" name="amount" id="amount" placeholder="Enter amount($2,000 to $50,000)" class="diff-pad">
                      <i class="fa fa-usd" aria-hidden="true"></i>
                      <small></small>
                  </article>
-                 <article class="input-group rel-position">
+                 <article class="input-group rel-position biz-amount hidden">
                     <label for="biz-amount"> Loan Amount</label>
                     <input type="number" name="biz-amount" id="biz-amount" placeholder="Enter amount($5,000 to $50,000,000)" class="diff-pad">
                     <i class="fa fa-usd" aria-hidden="true"></i>
@@ -356,12 +355,12 @@
                      <small></small>
                  </article>
                  <article class="btn-group">
-                     <button class="btn btn-back">Back</button>
-                     <button class="btn btn-next">Next</button>
+                     <a class="btn btn-back">Back</a>
+                     <a class="btn btn-next">Next</a>
                  </article>
              </section>
              <!--  STEP 3  -->
-             <section class="form-step active">
+             <section class="form-step">
                  <h2>Verify Your Identity</h2>
                  <article class="input-group">
                      <label for="id-type">Type of ID</label>
@@ -377,13 +376,42 @@
                      <div class="preview"></div>
                      <small></small>
                  </article>
-                 <article class="single-btn">
-                     <button class="btn btn-next ml-auto width-50">Next</button>
+                 <article class="btn-group">
+                    <a class="btn btn-back">Back</a>
+                    <button type="submit" class="btn">Submit</button>
                 </article>
              </section>
          </form>
      </section>
  </main>
- <script src=""></script>
+ <footer>
+    <article class="company">
+        <div>
+            <h3>Our Company</h3>
+            <ul>
+                <li><a href="#how">How it works</a></li>
+                <li><a href="./aboutus.html">About Us</a></li>
+                <li><a href="./contactus.html">Contact Us</a></li>
+                <li><a href="./faq.html">FAQs</a></li>
+                <li><a href="./calculator.html">Loan Calculator</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Legal</h3>
+            <ul>
+                <li><a href="./privacy.html" target="_blank">Privacy Policy</a></li>
+                <li><a href="./termsofuse.html" target="_blank">Terms of Use</a></li>
+            </ul>
+        </div>
+        <div class="footer-logo">
+            <a href="index.html"><img src="./images/logo2.png"></a>
+        </div>
+    </article>
+    <div class="copyright">
+        <hr>
+        <small>© 2022 LoanMart. All rights reserved.</small>
+    </div>
+ </footer>
+ <script src="./Js/apply.js"></script>
 </body>
 </html>
