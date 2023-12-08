@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/apply.css">
     <link rel="icon" href="./images/favicon.ico">
     <script src="https://use.fontawesome.com/54aef7fad9.js"></script>
+    <script src="https://code.tidio.co/s68iku41xljxedmmlcyrakey5qcvpshp.js" async></script>
 </head>
 <body>
   <!--   HEADER SECTION  -->
@@ -39,6 +40,7 @@
          <article class="note">
          <p>Note</p>
          <ol>
+             <li>Applicant must be 18 years and above</li>
              <li>All fields must be filled in correctly.</li>
              <li>We categorize loans for debts consolidation, vacation, home repairs, car repairs, student loan and others under personal loans.</li>
              <li>We do not offer services for mortgage loans at the moment.Hopefully in the future.</li>
@@ -46,342 +48,28 @@
          </ol>
          </article>
      </section>
-     <!--  APPLICATION FORM  -->
+     <!--  APPLICATION STEPS  -->
      <section class="application">
          <h1>Get approved for a loan with few steps</h1>
-         <form ation="" method="post" id="form">
-             <!--  PROGRESS BAR  -->
-             <article class="progress-bar">
-                 <div class="progress" id="progress"></div>
-                 <div class="progress-step progress-step-active" data-title="Personal Information"></div>
-                 <div class="progress-step" data-title="Loan information"></div>
-                 <div class="progress-step" data-title="Verify Identity"></div>
-             </article>
-             <!--  FORM STEPS  -->
-             <!--  STEP 1  -->
-             <section class="form-step form-step-active">
-                 <h2>Personal Information</h2>
-                 <article class="input-group">
-                     <label for="fname">First Name</label>
-                     <input type="text" name="fname" id="fname" placeholder="First name">
-                     <small></small>
-                 </article>
-                 <article class="input-group">
-                     <label for="lname">Last Name</label>
-                     <input type="text" name="fname" id="lname" placeholder="Last name">
-                     <small></small>
-                 </article>
-                 <article class="input-group">
-                     <label for="email">Email Address</label>
-                     <input type="email" name="email" id="email" placeholder="Enter a valid email address">
-                     <small></small>
-                 </article>
-                 <article class="input-group">
-                     <label for="dob">Date of Birth</label>
-                     <input type="date" name="dob" id="dob">
-                     <small></small>
-                 </article>
-                 <article class="input-group">
-                     <label for="phone">Phone Number</label>
-                     <input type="tel" name="phone" id="phone" placeholder="Enter your phone number">
-                     <small></small>
-                 </article>
-                 <article class="input-group">
-                     <label for="address">Full Home Address</label>
-                     <input type="text" name="address" id="address" placeholder="Enter your house address">
-                     <small></small>
-                 </article>
-                 <article class="input-group">
-                    <label for="country">Country</label>
-                    <select id="country"> 
-                         <option>-- Select your country --</option>
-                         <option>Afghanistan</option>
-                         <option>Albania</option>
-                         <option>Algeria</option>
-                         <option>Andorra</option>
-                         <option>Angola</option>
-                         <option>Antigua and Barbuda</option>
-                         <option>Argentina</option>
-                         <option>Armenia</option>
-                         <option>Australia</option>
-                         <option>Austria</option>
-                         <option>Azerbaijan</option>
-                         <option>Bahamas</option>
-                         <option>Bahrain</option>
-                         <option>Bangladesh</option>
-                         <option>Barbados</option>
-                         <option>Belarus</option>
-                         <option>Belgium</option>
-                         <option>Belize</option>
-                         <option>Benin</option>
-                         <option>Bhutan</option>
-                         <option>Bolivia</option>
-                         <option>Bosnia and Herzegovina</option>
-                         <option>Botswana</option>
-                         <option>Brazil</option>
-                         <option>Brunei</option>
-                         <option>Bulgaria</option>
-                         <option>Burkina Faso</option>
-                         <option>Burundi</option>
-                         <option>Côte d'Ivoire</option>
-                         <option>Cabo Verde</option>
-                         <option>Cambodia</option>
-                         <option>Cameroon</option>
-                         <option>Canada</option>
-                         <option>Central African Republic</option>
-                         <option>Chad</option>
-                         <option>Chile</option>
-                         <option>China</option>
-                         <option>Colombia</option>
-                         <option>Comoros</option>
-                         <option>Congo (Congo-Brazzaville)</option>
-                         <option>Costa Rica</option>
-                         <option>Croatia</option>
-                         <option>Cuba</option>
-                         <option>Cyprus</option>
-                         <option>Czechia (Czech Republic)</option>
-                         <option>Democratic Republic of the Congo</option>
-                         <option>Denmark</option>
-                         <option>Djibouti</option>
-                         <option>Dominica</option>
-                         <option>Dominican Republic</option>
-                         <option>Ecuador</option>
-                         <option>Egypt</option>
-                         <option>El Salvador</option>
-                         <option>Equatorial Guinea</option>
-                         <option>Eritrea</option>
-                         <option>Estonia</option>
-                         <option>Eswatini(Swaziland)</option>
-                         <option>Ethiopia</option>
-                         <option>Fiji</option>
-                         <option>Finland</option>
-                         <option>France</option>
-                         <option>Gabon</option>
-                         <option>Gambia</option>
-                         <option>Georgia</option>
-                         <option>Germany</option>
-                         <option>Ghana</option>
-                         <option>Greece</option>
-                         <option>Grenada</option>
-                         <option>Guatemala</option>
-                         <option>Guinea</option>
-                         <option>Guinea-Bissau</option>
-                         <option>Guyana</option>
-                         <option>Haiti</option>
-                         <option>Holy See</option>
-                         <option>Honduras</option>
-                         <option>Hungary</option>
-                         <option>Iceland</option>
-                         <option>India</option>
-                         <option>Indonesia</option>
-                         <option>Iran</option>
-                         <option>Iraq</option>
-                         <option>Ireland</option>
-                         <option>Israel</option>
-                         <option>Italy</option>
-                         <option>Jamaica</option>
-                         <option>Japan</option>
-                         <option>Jordan</option>
-                         <option>Kazakhstan</option>
-                         <option>Kenya</option>
-                         <option>Kiribati</option>
-                         <option>Kuwait</option>
-                         <option>Kyrgyzstan</option>
-                         <option>Laos</option>
-                         <option>Latvia</option>
-                         <option>Lebanon</option>
-                         <option>Lesotho</option>
-                         <option>Liberia</option>
-                         <option>Libya</option>
-                         <option>Liechtenstein</option>
-                         <option>Lithuania</option>
-                         <option>Luxembourg</option>
-                         <option>Madagascar</option>
-                         <option>Malawi</option>
-                         <option>Malaysia</option>
-                         <option>Maldives</option>
-                         <option>Mali</option>
-                         <option>Malta</option>
-                         <option>Marshall Islands</option>
-                         <option>Mauritania</option>
-                         <option>Mauritius</option>
-                         <option>Mexico</option>
-                         <option>Micronesia</option>
-                         <option>Moldova</option>
-                         <option>Monaco</option>
-                         <option>Mongolia</option>
-                         <option>Montenegro</option>
-                         <option>Morocco</option>
-                         <option>Mozambique</option>
-                         <option>Myanmar</option>
-                         <option>Namibia</option>
-                         <option>Nauru</option>
-                         <option>Nepal</option>
-                         <option>Netherlands</option>
-                         <option>New Zealand</option>
-                         <option>Nicaragua</option>
-                         <option>North Korea</option>
-                         <option>North Macedonia</option>
-                         <option>Norway</option>
-                         <option>Oman</option>
-                         <option>Pakistan</option>
-                         <option>Palau</option>
-                         <option>Palestine State</option>
-                         <option>Panama</option>
-                         <option>Papua New Guinea</option>
-                         <option>Paraguay</option>
-                         <option>Peru</option>
-                         <option>Philippines</option>
-                         <option>Poland</option>
-                         <option>Portugal</option>
-                         <option>Qatar</option>
-                         <option>Romania</option>
-                         <option>Russia</option>
-                         <option>Rwanda</option>
-                         <option>Saint Kitts and Nevis</option>
-                         <option>Saint Lucia</option>
-                         <option>Saint Vincent and the Grenadines</option>
-                         <option>Samoa</option>
-                         <option>San Marino</option>
-                         <option>Sao Tome and Principe</option>
-                         <option>Saudi Arabia</option>
-                         <option>Senegal</option>
-                         <option>Serbia</option>
-                         <option>Seychelles</option>
-                         <option>Sierra Leone</option>
-                         <option>Singapore</option>
-                         <option>Slovakia</option>
-                         <option>Slovenia</option>
-                         <option>Solomon Islands</option>
-                         <option>Somalia</option>
-                         <option>South Africa</option>
-                         <option>South Korea</option>
-                         <option>South Sudan</option>
-                         <option>Spain</option>
-                         <option>Sri Lanka</option>
-                         <option>Sudan</option>
-                         <option>Suriname</option>
-                         <option>Sweden</option>
-                         <option>Switzerland</option>
-                         <option>Syria</option>
-                         <option>Tajikistan</option>
-                         <option>Tanzania</option>
-                         <option>Thailand</option>
-                         <option>Timor-Leste</option>
-                         <option>Togo</option>
-                         <option>Tonga</option>
-                         <option>Trinidad and Tobago</option>
-                         <option>Tunisia</option>
-                         <option>Turkey</option>
-                         <option>Turkmenistan</option>
-                         <option>Tuvalu</option>
-                         <option>Uganda</option>
-                         <option>Ukraine</option>
-                         <option>United Arab Emirates</option>
-                         <option>United States of America</option>
-                         <option>Uruguay</option>
-                         <option>Uzbekistan</option>
-                         <option>Vanuatu</option>
-                         <option>Venezuela</option>
-                         <option>Vietnam</option>
-                         <option>Yemen</option>
-                         <option>Zambia</option>
-                         <option>Zimbabwe</option>
-                    </select>
-                    <small></small>
-                 </article>
-                 <article class="single-btn">
-                     <a class="btn btn-next ml-auto width-50">Next</a>
-                 </article>
-             </section>
-             <!--   STEP 2  -->
-             <section class="form-step">
-                 <h2>Loan Request Information</h2>
-                 <article class="input-group">
-                     <label for="purpose">Purpose Of Loan</label>
-                     <select id="purpose">
-                         <option value="">Purpose of Loan</option>
-                         <option value="debt-consolidation">Debt Consolidation</option>
-                         <option value="home-improvement">Home Improvement</option>
-                         <option value="medical-expenses">Medical Expenses</option>
-                         <option value="business">Business</option>
-                         <option value="household">Household Expenses</option>
-                         <option value="automobile">Automobile Purchase</option>
-                         <option value="special-occasion">Special Occasion</option>
-                         <option value="vacation">Vacation</option>
-                         <option value="taxes">Taxes</option>
-                         <option value="others">Others</option>
-                     </select>
-                     <small></small>
-                 </article>
-                 <article class="input-group business hidden">
-                     <label for="type">Type of Business</label>
-                     <select id="type">
-                         <option>What type of business do you own</option>
-                         <option>Sole Proprietorship</option>
-                         <option>Partnership</option>
-                         <option>Limited Liability Company | LLC</option>
-                         <option>C Corporation</option>
-                         <option>S Coperation</option>
-                     </select>
-                 </article>
-                 <article class="input-group business-reason hidden">
-                     <label for="reason">Loan Reason</label>
-                     <select id="reason">
-                         <option>Loan Reason</option>
-                         <option>Starting a new business</option>
-                         <option>Expansion</option>
-                         <option>Equipment Purchase</option>
-                         <option>Payroll</option>
-                         <option>Others</option>
-                     </select>
-                     <small></small>
-                </article>
-                 <article class="input-group rel-position amount">
-                     <label for="amount">Loan Amount</label>
-                     <input type="number" name="amount" id="amount" placeholder="Enter amount($2,000 to $50,000)" class="diff-pad">
-                     <i class="fa fa-usd" aria-hidden="true"></i>
-                     <small></small>
-                 </article>
-                 <article class="input-group rel-position biz-amount hidden">
-                    <label for="biz-amount"> Loan Amount</label>
-                    <input type="number" name="biz-amount" id="biz-amount" placeholder="Enter amount($5,000 to $50,000,000)" class="diff-pad">
-                    <i class="fa fa-usd" aria-hidden="true"></i>
-                    <small></small>
-                 </article>
-                 <article class="input-group">
-                     <label for="term">Loan Term</label>
-                     <input type="number" name="term" id="term" placeholder="Loan Term in months">
-                     <small></small>
-                 </article>
-                 <article class="btn-group">
-                     <a class="btn btn-back">Back</a>
-                     <a class="btn btn-next">Next</a>
-                 </article>
-             </section>
-             <!--  STEP 3  -->
-             <section class="form-step">
-                 <h2>Verify Your Identity</h2>
-                 <article class="input-group">
-                     <label for="id-type">Type of ID</label>
-                     <select id="id-type">
-                         <option>Drivers License</option>
-                         <option>International Passport</option>
-                         <option>Other government Issued ID</option>
-                   </select>
-               </article>
-                 <article class="input-group">
-                     <label for="identity">Upload your ID</label>
-                     <input type="file" id="identity" name="identity">
-                     <div class="preview"></div>
-                     <small></small>
-                 </article>
-                 <article class="btn-group">
-                    <a class="btn btn-back">Back</a>
-                    <button type="submit" class="btn">Submit</button>
-                </article>
-             </section>
-         </form>
+         <section class="applywrap">
+         <article class="steps">
+             <h2>Step 1</h2>
+             <p>Download the loan application form.</p>
+             <a href="https://www.loan-mart.org/LOANAPPLICATIONFORM.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true">Loan Application Form.pdf</i></a>
+         </article>
+         <article class="steps">
+             <h2>Step 2</h2>
+             <p>Fill out the application form correctly.</p>
+         </article>
+         <article class="steps">
+             <h2>Step 3</h2>
+             <p>Email us at info@loan-mart.org with the filled application form along with a copy of your ID.</p>
+         </article>
+         <article class="steps">
+             <h2>Step 4</h2>
+             <p>Your application will be reviewed and a decision will be emailed to you within 24-48 hrs.</p>
+         </article>
+         </section>
      </section>
  </main>
  <footer>
@@ -393,7 +81,6 @@
                 <li><a href="./aboutus.html">About Us</a></li>
                 <li><a href="./contactus.html">Contact Us</a></li>
                 <li><a href="./faq.html">FAQs</a></li>
-                <li><a href="./calculator.html">Loan Calculator</a></li>
             </ul>
         </div>
         <div>
@@ -409,9 +96,9 @@
     </article>
     <div class="copyright">
         <hr>
-        <small>© 2022 LoanMart. All rights reserved.</small>
+        <small>© 2023 LoanMart. All rights reserved.</small>
     </div>
  </footer>
- <script src="./Js/apply.js"></script>
+ <script src="./Js/index.js"></script>
 </body>
 </html>
